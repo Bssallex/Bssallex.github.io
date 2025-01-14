@@ -1,0 +1,49 @@
+@media screen and (min-width:300px) and (max-width: 700px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .header #section1 {
+        display: none;
+    }
+
+    .header .icons {
+        display: none;
+    }
+
+    .content h3 {
+        font-size: 3rem;
+    }
+
+    .btn {
+        padding: 1rem 1rem;
+    }
+
+    .container-image {
+        display: none;
+    }
+
+    .about .row .content h3 {
+        font-size: 3rem;
+    }
+
+    .about .row .content .btn {
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .home-container section {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+}
+
+@media screen and (min-width:720px) and (max-width:1580px) {
+    #btn-menu {
+        display: none;
+    }
+}
